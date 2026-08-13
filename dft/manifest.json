@@ -1,0 +1,151 @@
+{
+  "a0": 5.4093,
+  "ncell": 3,
+  "n_cation_sites": 108,
+  "structures": [
+    {
+      "name": "ref_pure",
+      "note": "pure ZnS supercell",
+      "n_Cu": 0,
+      "n_In": 0,
+      "n_vac": 0,
+      "sum_dQ2": 0.0,
+      "n_CuIn": 0.0,
+      "n_CuCu": 0.0,
+      "n_InIn": 0.0,
+      "n_InVac": 0.0
+    },
+    {
+      "name": "A_1NN",
+      "note": "Cu and In at 1NN separation",
+      "n_Cu": 1,
+      "n_In": 1,
+      "n_vac": 0,
+      "sum_dQ2": 6.0,
+      "n_CuIn": 1.0,
+      "n_CuCu": 0.0,
+      "n_InIn": 0.0,
+      "n_InVac": 0.0
+    },
+    {
+      "name": "A_2NN",
+      "note": "Cu and In at 2NN separation",
+      "n_Cu": 1,
+      "n_In": 1,
+      "n_vac": 0,
+      "sum_dQ2": 8.0,
+      "n_CuIn": 0.0,
+      "n_CuCu": 0.0,
+      "n_InIn": 0.0,
+      "n_InVac": 0.0
+    },
+    {
+      "name": "A_3NN",
+      "note": "Cu and In at 3NN separation",
+      "n_Cu": 1,
+      "n_In": 1,
+      "n_vac": 0,
+      "sum_dQ2": 8.0,
+      "n_CuIn": 0.0,
+      "n_CuCu": 0.0,
+      "n_InIn": 0.0,
+      "n_InVac": 0.0
+    },
+    {
+      "name": "A_4NN",
+      "note": "Cu and In at 4NN separation",
+      "n_Cu": 1,
+      "n_In": 1,
+      "n_vac": 0,
+      "sum_dQ2": 8.0,
+      "n_CuIn": 0.0,
+      "n_CuCu": 0.0,
+      "n_InIn": 0.0,
+      "n_InVac": 0.0
+    },
+    {
+      "name": "A_far",
+      "note": "Cu and In maximally separated (reference for set A)",
+      "n_Cu": 1,
+      "n_In": 1,
+      "n_vac": 0,
+      "sum_dQ2": 8.0,
+      "n_CuIn": 0.0,
+      "n_CuCu": 0.0,
+      "n_InIn": 0.0,
+      "n_InVac": 0.0
+    },
+    {
+      "name": "B_square",
+      "note": "two Cu each 1NN of two In, no like-pair contacts (predicted ground state, 8*lambda)",
+      "n_Cu": 2,
+      "n_In": 2,
+      "n_vac": 0,
+      "sum_dQ2": 8.0,
+      "n_CuIn": 4.0,
+      "n_CuCu": 0.0,
+      "n_InIn": 0.0,
+      "n_InVac": 0.0
+    },
+    {
+      "name": "B_two_pairs",
+      "note": "two isolated 1NN Cu-In pairs",
+      "n_Cu": 2,
+      "n_In": 2,
+      "n_vac": 0,
+      "sum_dQ2": 12.0,
+      "n_CuIn": 2.0,
+      "n_CuCu": 0.0,
+      "n_InIn": 0.0,
+      "n_InVac": 0.0
+    },
+    {
+      "name": "B_like_pairs",
+      "note": "Cu-Cu and In-In first-neighbour pairs, separated",
+      "n_Cu": 2,
+      "n_In": 2,
+      "n_vac": 0,
+      "sum_dQ2": 20.0,
+      "n_CuIn": 0.0,
+      "n_CuCu": 1.0,
+      "n_InIn": 1.0,
+      "n_InVac": 0.0
+    },
+    {
+      "name": "B_all_separated",
+      "note": "two Cu and two In all separated (reference for set B)",
+      "n_Cu": 2,
+      "n_In": 2,
+      "n_vac": 0,
+      "sum_dQ2": 16.0,
+      "n_CuIn": 0.0,
+      "n_CuCu": 0.0,
+      "n_InIn": 0.0,
+      "n_InVac": 0.0
+    },
+    {
+      "name": "C_split",
+      "note": "V_Zn with two In on different S tetrahedra (predicted GS)",
+      "n_Cu": 0,
+      "n_In": 2,
+      "n_vac": 1,
+      "sum_dQ2": 16.0,
+      "n_CuIn": 0.0,
+      "n_CuCu": 0.0,
+      "n_InIn": 0.0,
+      "n_InVac": 2.0
+    },
+    {
+      "name": "C_separated",
+      "note": "V_Zn and two In all separated (reference for set C)",
+      "n_Cu": 0,
+      "n_In": 2,
+      "n_vac": 1,
+      "sum_dQ2": 24.0,
+      "n_CuIn": 0.0,
+      "n_CuCu": 0.0,
+      "n_InIn": 0.0,
+      "n_InVac": 0.0
+    }
+  ]
+}
