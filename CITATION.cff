@@ -1,0 +1,65 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite the following."
+title: "sphalerite-equilibrium-mc: replica-exchange evidence against a dilute indium solid solution in sphalerite"
+abstract: >-
+  Replica-exchange Monte Carlo study of indium in sphalerite, establishing that
+  the equilibrium state is condensed rather than a dilute solid solution at every
+  composition from 0.10 to 2.00 atomic per cent. Includes the adaptive ladder
+  construction, the bracketing test that establishes the result without requiring
+  convergence at ore-forming temperatures, the ladder scaling law, verification
+  to 5e5 cation sites, and the structure generation and fitting harness for the
+  deferred first-principles parameterisation.
+type: software
+authors:
+  - family-names: "Yu"
+    given-names: "He"
+    email: "yuhe@hzxy.edu.cn"
+    affiliation: "Geological Laboratory, Hezhou University, Hezhou, Guangxi 542899, China"
+  - family-names: "Chen"
+    given-names: "Ruqing"
+    email: "ruqing@hotmail.com"
+    affiliation: "GUT Geoservice Inc., Montreal, Quebec, Canada"
+  - family-names: "Lu"
+    given-names: "Huanzhang"
+    email: "hzlu@uqac.uquebec.ca"
+    affiliation: "Departement des sciences appliquees et Centre d'etudes sur les ressources minerales, Universite du Quebec a Chicoutimi, Quebec, Canada"
+repository-code: "https://github.com/Ruqing1963/sphalerite-equilibrium-mc"
+license: MIT
+keywords:
+  - sphalerite
+  - indium
+  - solid solution
+  - replica exchange
+  - parallel tempering
+  - Monte Carlo
+  - statistical thermodynamics
+  - critical metals
+  - ore deposits
+  - computational mineralogy
+version: "1.0.0"
+date-released: "2026-08-13"
+references:
+  - type: article
+    title: "A statistical thermodynamic lattice model for Cu-In coupled substitution in sphalerite"
+    authors:
+      - family-names: "Yu"
+        given-names: "He"
+      - family-names: "Chen"
+        given-names: "Ruqing"
+      - family-names: "Lu"
+        given-names: "Huanzhang"
+    year: 2026
+    doi: "10.5281/zenodo.21880502"
+    notes: "Paper 1 of the series; establishes the Hamiltonian used here."
+preferred-citation:
+  type: article
+  title: "The Equilibrium Fate of Indium in Sphalerite: Large-Scale Replica-Exchange Simulation and the Absence of a Dilute Solid Solution"
+  authors:
+    - family-names: "Yu"
+      given-names: "He"
+    - family-names: "Chen"
+      given-names: "Ruqing"
+    - family-names: "Lu"
+      given-names: "Huanzhang"
+  year: 2026
+  notes: "Preprint. DOI to be minted on release; journal details to follow on acceptance."

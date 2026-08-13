@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# LaTeX build artefacts
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.spl
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Large simulation output -- do NOT commit.
+# Production runs at 50^3 and above generate hundreds of MB of configuration
+# data; committing it permanently inflates the repository and the history
+# cannot be cleaned afterwards. Use Zenodo or Git LFS instead.
+*.npy
+*.h5
+*.hdf5
+*.pkl
+data/raw/
+data/configurations/
+
+# Quantum ESPRESSO / VASP run directories
+tmp_*/
+run_*/
+*.wfc*
+WAVECAR
+CHGCAR
+
+# OS
+.DS_Store
+Thumbs.db
