@@ -1,0 +1,42 @@
+SYSTEM = ZnS supercell, Cu-In substitution
+
+# --- parallelisation and memory ---
+# On 8 physical cores with ~13 GB usable, the binding constraint is memory,
+# not speed. Three settings matter:
+#   KPAR = 1     KPAR replicates the wavefunction per k-point group and would
+#                double the resident set. Do not raise it on this machine.
+#   LREAL = Auto real-space projectors; at 216 atoms reciprocal-space
+#                projection is prohibitive in both memory and time.
+#   LWAVE/LCHARG single WAVECAR here is several GB and is never read back,
+#                since only total energies are needed.
+NCORE  = 4
+KPAR   = 1
+LREAL  = Auto
+LWAVE  = .FALSE.
+LCHARG = .FALSE.
+
+# --- electronic ---
+ENCUT  = 500
+PREC   = Normal
+EDIFF  = 1E-6
+ALGO   = Normal
+ISMEAR = 0
+SIGMA  = 0.05
+NELM   = 120
+
+# --- ionic relaxation at fixed cell (protocol R1) ---
+IBRION = 2
+ISIF   = 2
+NSW    = 60
+EDIFFG = -1E-2
+
+# --- Hubbard U.  Starting values only; see the campaign design.  Order of
+# LDAUL/LDAUU/LDAUJ must match the species order of the POSCAR, which this
+# generator writes as Zn Cu In S (species absent from a given structure are
+# omitted from that POSCAR, so these lines must be trimmed to match).
+LDAU     = .TRUE.
+LDAUTYPE = 2
+LDAUL    =    2    2    2   -1
+LDAUU    =  8.0  5.0  6.0  0.0
+LDAUJ    =  0.0  0.0  0.0  0.0
+LMAXMIX  = 4
