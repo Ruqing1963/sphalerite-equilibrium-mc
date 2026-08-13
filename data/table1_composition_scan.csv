@@ -1,0 +1,6 @@
+"# Table 1. Composition scan at L=20 (N=32000), 573 K,","replica exchange, 12000 sweeps per replica"
+x_Cu_eq_x_In_at_pct,N_solute,M_replicas,round_trips,swap_median,alpha_In_Cu,R_Cu_In,P_Cu_given_In,mean_dQ2,imbalance_removed_pct,n_clusters,max_cluster,largest_fraction,monomer_fraction
+0.10,64,25,2,0.680,-440.57,442.71,0.443,0.0012,85.0,1,64,1.000,0.00
+0.25,160,24,2,0.600,-195.69,197.50,0.494,0.0021,89.5,1,160,1.000,0.00
+0.50,320,32,8,0.720,-103.15,103.65,0.518,0.0030,92.5,1,320,1.000,0.00
+2.00,1280,69,5,0.730,-26.46,27.25,0.545,0.0089,94.4,2,1090,0.852,0.00

@@ -1,0 +1,57 @@
+{
+  "config": {
+    "L": 10,
+    "N": 4000,
+    "x": 0.02,
+    "T": 573.0,
+    "total_sweeps": 150000,
+    "M": 29
+  },
+  "phase1_reference": {
+    "quenched": -0.00211,
+    "annealed": -0.00528,
+    "alpha": -23.48
+  },
+  "results": {
+    "A  plain Kawasaki": {
+      "E_mean": -0.0027078978007703735,
+      "E_final": -0.002567564624590679,
+      "alpha_mean": -22.93,
+      "tau_blocks": 10.636823886361686,
+      "tau_sweeps": 1063.6823886361685,
+      "wall_s": 104.13536477088928,
+      "n_sweeps": 150000,
+      "note": "acceptance = 4.00e-05"
+    },
+    "B  mixed move set (p_ss = 0.5)": {
+      "E_mean": -0.0024426721024586808,
+      "E_final": -0.002410406911548209,
+      "alpha_mean": -23.876180555555557,
+      "tau_blocks": 6.640054534856881,
+      "tau_sweeps": 664.0054534856881,
+      "wall_s": 98.46474194526672,
+      "n_sweeps": 150000,
+      "note": "acceptance = 7.50e-06, solute-solute acceptance = 0.00e+00"
+    },
+    "C  replica exchange": {
+      "E_mean": -0.006040816391325747,
+      "E_final": -0.006049225509234449,
+      "alpha_mean": -23.99637330754352,
+      "tau_blocks": 6.416125132637294,
+      "tau_sweeps": 930.3381442324077,
+      "wall_s": 108.43348479270935,
+      "n_sweeps": 149930,
+      "note": "swap acc min=0.294 median=0.638; round trips = 2; cycles = 1034"
+    },
+    "D  replica exchange + mixed moves": {
+      "E_mean": -0.006008114469064362,
+      "E_final": -0.006049225509235062,
+      "alpha_mean": -23.879311734364926,
+      "tau_blocks": 1.3618700544975972,
+      "tau_sweeps": 197.4711579021516,
+      "wall_s": 100.85655450820923,
+      "n_sweeps": 149930,
+      "note": "swap acc min=0.273 median=0.620; round trips = 3; cycles = 1034"
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "sizes": [
+    {
+      "L": 10,
+      "build_s": 0.025590181350708008,
+      "N": 4000,
+      "adjacency_mb": 0.512,
+      "lut_mb": 0.512,
+      "replica_mb": 0.03728,
+      "moves_per_s": 3724758.354500783,
+      "s_per_sweep": 0.0010738951683044434,
+      "energy_drift_rel": 1.4450954961471903e-14,
+      "checks": {
+        "lemma": true,
+        "reciprocity": true,
+        "R->1": true,
+        "identity": true,
+        "dq2=8x": true,
+        "energy": true,
+        "composition": true,
+        "solute list": true
+      }
+    },
+    {
+      "L": 20,
+      "build_s": 0.3553767204284668,
+      "N": 32000,
+      "adjacency_mb": 4.096,
+      "lut_mb": 4.096,
+      "replica_mb": 0.29824,
+      "moves_per_s": 4149041.689307179,
+      "s_per_sweep": 0.007712624359130859,
+      "energy_drift_rel": 4.149621331988113e-13,
+      "checks": {
+        "lemma": true,
+        "reciprocity": true,
+        "R->1": true,
+        "identity": true,
+        "dq2=8x": true,
+        "energy": true,
+        "composition": true,
+        "solute list": true
+      }
+    },
+    {
+      "L": 30,
+      "build_s": 0.4578242301940918,
+      "N": 108000,
+      "adjacency_mb": 13.824,
+      "lut_mb": 13.824,
+      "replica_mb": 1.00656,
+      "moves_per_s": 2833676.8852308737,
+      "s_per_sweep": 0.038113025716833164,
+      "energy_drift_rel": 1.0664415909578802e-11,
+      "checks": {
+        "lemma": true,
+        "reciprocity": true,
+        "R->1": true,
+        "identity": true,
+        "dq2=8x": true,
+        "energy": true,
+        "composition": true,
+        "solute list": true
+      }
+    },
+    {
+      "L": 40,
+      "build_s": 1.489847183227539,
+      "N": 256000,
+      "adjacency_mb": 32.768,
+      "lut_mb": 32.768,
+      "replica_mb": 2.38592,
+      "moves_per_s": 1718849.5869711677,
+      "s_per_sweep": 0.14893682492084992,
+      "energy_drift_rel": 5.945610360120777e-12,
+      "checks": {
+        "lemma": true,
+        "reciprocity": true,
+        "R->1": true,
+        "identity": true,
+        "dq2=8x": true,
+        "energy": true,
+        "composition": true,
+        "solute list": true
+      }
+    },
+    {
+      "L": 50,
+      "build_s": 2.3500559329986572,
+      "N": 500000,
+      "adjacency_mb": 64.0,
+      "lut_mb": 64.0,
+      "replica_mb": 4.66,
+      "moves_per_s": 1366815.4515923085,
+      "s_per_sweep": 0.3658138334751129,
+      "energy_drift_rel": 2.69789275850371e-12,
+      "checks": {
+        "lemma": true,
+        "reciprocity": true,
+        "R->1": true,
+        "identity": true,
+        "dq2=8x": true,
+        "energy": true,
+        "composition": true,
+        "solute list": true
+      }
+    }
+  ],
+  "env": {
+    "cores": 1,
+    "ram_gb": 3
+  },
+  "throughput_exponent": -0.21712533593485064,
+  "cost_50": {
+    "s_per_sweep": 0.3658138334751129
+  }
+}

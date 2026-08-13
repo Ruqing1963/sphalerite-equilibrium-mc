@@ -1,0 +1,7 @@
+"# Table 3. Replica round trips at fixed compute, L=10, 573 K."
+M_replicas,sweeps_per_exchange,T_hi_K,cycles,round_trips,swap_median,E_per_site
+29,5,3000,1000,0,0.576,-0.00602
+29,2,3000,2500,3,0.618,-0.00558
+29,1,3000,5000,7,0.582,-0.00586
+21,1,2600,6904,12,0.632,-0.00603
+19,1,2200,7631,13,0.664,-0.00597

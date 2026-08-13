@@ -1,0 +1,7 @@
+# Table 5. Resource profile and verification up to N = 5e5.,All correctness checks pass at every box size.
+L,N_sites,build_s,adjacency_MB,per_replica_MB,moves_per_s,s_per_sweep,energy_drift_rel,all_checks_pass
+10,4000,0.03,0.5,0.0,3724758,0.001,1.45e-14,yes
+20,32000,0.36,4.1,0.3,4149042,0.008,4.15e-13,yes
+30,108000,0.46,13.8,1.0,2833677,0.038,1.07e-11,yes
+40,256000,1.49,32.8,2.4,1718850,0.149,5.95e-12,yes
+50,500000,2.35,64.0,4.7,1366815,0.366,2.70e-12,yes

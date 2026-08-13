@@ -1,0 +1,6 @@
+"# Table 6. Energy fluctuation at fixed box, varying composition;","sigma_E ~ N_sol^0.851, giving sigma_E ~ x^0.85 N^0.51 combined."
+L,N_sites,x_at_pct,N_solute,sigma_E_eV,sigma_over_sqrtN,sigma_over_sqrtNsol
+20,32000,0.25,160,3.058,0.0171,0.2417
+20,32000,0.50,320,5.538,0.0310,0.3096
+20,32000,1.00,640,10.023,0.0560,0.3962
+20,32000,2.00,1280,17.934,0.1003,0.5013

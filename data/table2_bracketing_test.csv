@@ -1,0 +1,8 @@
+"# Table 2. Bracketing test at L=20, 4000 sweeps per run.",Equilibrium lies between the two starting configurations.
+x_at_pct,T_K,acc_dispersed,acc_condensed,largest_frac_from_dispersed,largest_frac_from_condensed,bracket_low,bracket_high,E_per_site_dispersed,E_per_site_condensed
+0.10,1800,0.11891,0.09405,0.641,0.875,0.641,0.875,0.000910,0.000358
+0.10,1400,0.01171,0.00719,1.000,0.984,0.984,1.000,0.000005,0.000074
+0.10,1000,0.00059,0.00038,1.000,1.000,1.000,1.000,-0.000008,-0.000025
+0.25,1800,0.02987,0.02327,0.950,0.969,0.950,0.969,0.000000,-0.000188
+0.25,1400,0.00269,0.00212,0.994,1.000,0.994,1.000,-0.000398,-0.000415
+0.25,1000,0.00024,0.00027,0.575,1.000,0.575,1.000,-0.000138,-0.000190
